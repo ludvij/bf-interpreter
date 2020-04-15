@@ -38,7 +38,7 @@ public:
     
     void set();
         
-    int16_t get();
+    int16_t get() { return _belt[_pos]; }
 
 private:
 

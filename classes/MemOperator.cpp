@@ -74,11 +74,6 @@ void MemOperator::set()
 	_belt[_pos] = var;
 }
 
-int16_t MemOperator::get()
-{
-	return _belt[_pos];
-}
-
 void MemOperator::print()
 {
 	std::cout << static_cast<char>( get() );
